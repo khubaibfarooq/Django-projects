@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- ===============================================-->
+  <!--    Document Title-->
+  <!-- ===============================================-->
+  <title>Home</title>
+
+
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  {% include "partials/favicon.html" %}
+
+
+  <!-- ===============================================-->
+  <!--    Stylesheets-->
+  <!-- ===============================================-->
+  <link href="/static/assets/css/theme.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main" id="top">
+
+    {% include "partials/header.html" %}
+
+    <br><br>
+
+    <!-- ============================================ -->
+    {% include "partials/hero.html" %}
+    <!-- ============================================ -->
+
+    <!-- ============================================ -->
+    {% include "partials/cards.html" %}
+    <!-- ============================================ -->
+
+    <div class="text-center">
+      <div class="container-md text-center">
+        <p class="fs-6"><b>Internet security</b> for everyone</p>
+        <p class="fs-3">Our goal is to make online privacy accessible to all. We have focused on making the advanced
+          security technology in Smarter Guardians Proxy easy to use and freely available.</p>
+      </div>
+    </div>
+
+    <!-- ============================================-->
+    {% include "partials/split-section.html" %}
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+    
+    {% include "partials/simple-cards.html" %}
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+  
+    {% include "partials/movie-cards.html" %}
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+    {% include "partials/split-section-right.html" %}
+    {% include "partials/split-section-left.html" %}
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+    <div>
+      <div class="container-md text-center">
+        <p class="fs-6"><b>Unique features</b> for a more secure proxy</p>
+        <p class="fs-3">Unlike other proxy services, Smarter Guardians Proxy is designed with security as the main focus, drawing upon
+          the lessons we have learned from working with journalists and activists in the field.</p>
+      </div>
+    </div>
+    {% include "partials/feature-home.html" %}
+
+    <!-- ============================================-->
+    <!-- ============================================-->
+    {% include "partials/carousel.html" %}
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+    {% include "partials/mailing.html" %}
+    <!-- ============================================-->
+    {% include "partials/footer.html" %}
+    <!-- ============================================-->
+
+  </main>
+  <!-- ===============================================-->
+  <!--    End of Main Content-->
+  <!-- ===============================================-->
+
+
+
+
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+  <script src="/vendors/@popperjs/popper.min.js"></script>
+  <script src="/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="/vendors/is/is.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+  <script src="/assets/js/theme.js"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    rel="stylesheet">
+</body>
+
+</html>
